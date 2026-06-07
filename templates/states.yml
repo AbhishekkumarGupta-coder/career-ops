@@ -1,0 +1,40 @@
+# Canonical Application States
+# Use ONLY these values in the Status column of applications.md
+
+states:
+  - name: Evaluated
+    description: "Report completed, pending your decision to apply or skip"
+    color: cyan
+
+  - name: Applied
+    description: "Application submitted"
+    color: blue
+
+  - name: Responded
+    description: "Company responded (recruiter screen scheduled, etc.)"
+    color: yellow
+
+  - name: Interview
+    description: "In interview process (any stage)"
+    color: magenta
+
+  - name: Offer
+    description: "Offer received"
+    color: green
+
+  - name: Rejected
+    description: "Rejected by company"
+    color: red
+
+  - name: Discarded
+    description: "You discarded this opportunity, or offer is closed"
+    color: dim
+
+  - name: SKIP
+    description: "Doesn't fit — don't apply"
+    color: dim_red
+
+# Rules:
+# - No markdown bold (**) in status field
+# - No dates in status field (use the date column)
+# - No extra text (use the notes column)

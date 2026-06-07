@@ -1,0 +1,29 @@
+# Core
+google-genai>=1.0.0
+rich>=13.7.0
+PyYAML>=6.0.1
+requests>=2.31.0
+
+# Job board scraping (Indeed, LinkedIn, ZipRecruiter, Glassdoor)
+python-jobspy>=1.1.80
+
+# ── NEW: TinyFish — web fetch + search for AI agents (free) ──
+# Get key: https://agent.tinyfish.ai/api-keys
+tinyfish>=0.2.5
+
+# ── NEW: ScrapeGraphAI — natural-language structured extraction ──
+# Get key: https://scrapegraphai.com/
+scrapegraphai>=1.0.0
+
+# ── NEW: Sarvam AI — Indian-language voice STT + TTS ──
+# Get key: https://dashboard.sarvam.ai/
+sarvam-ai>=0.1.0
+pyaudio>=0.2.14
+
+# Optional: PDF generation (install one)
+# weasyprint>=62.0
+# pdfkit>=1.0.0
+
+# ── NEW: Tier 2 - Auto-apply + Outreach ──────────────────────────
+selenium>=4.20.0
+pyperclip>=1.8.2

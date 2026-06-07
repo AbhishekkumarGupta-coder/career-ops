@@ -1,0 +1,28 @@
+# Career-Ops Profile Configuration
+# Copy this to config/profile.yml and fill in your details
+
+name: "Your Full Name"
+email: "you@email.com"
+location: "City, Country"
+timezone: "UTC"
+
+# What roles are you targeting?
+target_roles: "Senior AI Engineer, Applied ML Engineer, AI Product Manager"
+
+# Your salary expectation
+salary_target: "$120k-$160k USD"
+
+# Work preferences
+preferences: "remote-first, async culture, startup or scaleup"
+
+# What to avoid
+avoid: "no pure consulting, no extensive travel, no on-call rotations"
+
+# Scoring weights (must sum to 1.0)
+scoring_weights:
+  role_match: 0.25
+  compensation: 0.20
+  company_quality: 0.20
+  growth: 0.15
+  culture_fit: 0.10
+  location_remote: 0.10
